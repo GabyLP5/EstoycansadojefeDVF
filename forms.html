@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido</h1> 
+    </header>
+    <main>
+        <section>
+            <form>
+                <input
+                    type="text"
+                    name="nombre"
+                    placeholder="ingresa tu nombre"
+                    maxlength="40"
+                    minlength="2"
+                />
+                <input
+                    type="text"
+                    name="apellido"
+                    placeholder="ingresa tu apellido"
+                    maxlength="50"
+                    minlength="4"
+                />
+                <input
+                    type="number"
+                    name="edad"
+                    placeholder="ingresa tu edad"
+                    max="100"
+                    min="1"
+                />
+                <input 
+                    type="text"
+                    name="rut"
+                    placeholder="ingresa tu rut"
+                    maxlength="10"
+                    minlength="9"
+                />
+                <br><br/>
+                <label
+                    for="Acondiciones"
+                >¿Acepta entregar su casa?
+                </label>
+                <input
+                    id="Acondiciones"
+                    type="checkbox"
+                    name="condiciones"
+                />
+                <br><br/>
+                <button
+                    type="submit">
+                    Enviar información
+                </button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            <strong>Hasta nunca</strong>
+        </p>
+    </footer>
+</body>
+</html>

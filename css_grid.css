@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(232, 162, 125);
+}
+header{
+    color: rgba(131, 95, 40, 0.706);
+    text-align: center;
+    padding: 12px;
+    margin-top: 12px;
+}
+main{
+    width: 870px;
+    min-height: 80vh;
+    border: 3px solid;
+    display: grid;
+    font-size: 20px;
+    margin: auto;
+    color: rgb(253, 242, 205);
+    background-color: rgb(85, 50, 30);
+}
+.contenedor{
+    color: rgb(255, 213, 213);
+    grid-template-columns: 30% 35% 35%;
+    grid-template-rows: 50px repeat(3,1fr) 100px;
+    text-align: center;
+    text-decoration: dashed;
+    border: 3px solid rgb(255, 227, 220);
+    grid-auto-rows: 6;
+    grid-template-areas: 
+        "Header Header Header"
+        "Sidebar Contenido Contenido"
+        "Sidebar Contenido Contenido"
+        "Sidebar Extra1 Extra2"
+        "Footer Footer Footer";
+    }
+.item1{
+    grid-template-areas: Header;
+    text-align: center;
+    background-color: rgb(251, 117, 117);
+}
+.item2{
+    grid-area: Sidebar;
+    background-color: rgb(255, 21, 21);
+}
+.item3{
+    grid-area: Contenido;
+    background-color: brown;
+}
+.item4{
+    grid-area: Extra1 1fr;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    background-color: rgb(255, 139, 57);
+}
+.item5{
+    grid-area: Extra2 1fr;
+    grid-column: 3/4;
+    grid-row: 4/5;
+    background-color: rgb(196, 103, 3);
+}
+.item6{
+    grid-area: Footer;
+    grid-column: 1/-1;
+    grid-row: 5/6;     
+    text-align: center;  
+    background-color: rgb(255, 157, 0);
+}

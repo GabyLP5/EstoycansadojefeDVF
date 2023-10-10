@@ -1,0 +1,28 @@
+body {
+    background-color: dimgray;
+}
+.title{
+    color: #ffffff;
+    padding: 15px;
+    margin-top: 30px;
+    text-align: center;
+    border: 5px solid #f50237;
+}
+.title_alimentos{
+    color: bisque;
+}
+.alimentos_lista{
+    color: rgb(255, 0, 0);
+}
+.derecho_laboral{
+    color: bisque;
+}
+.laboral_lista{
+    color: greenyellow;
+}
+.posdata{
+    color: #ffffff;
+    text-align: center;
+    border: 5px solid greenyellow;
+    background-color: blue;
+}
